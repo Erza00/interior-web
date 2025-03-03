@@ -1,0 +1,97 @@
+footer {
+  background-color: #222;
+}
+.container6 {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-div {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.divv {
+  width: 30%;
+  height: 30vh;
+  margin-top: 30px;
+  padding: 15px 20px;
+  transition: 0.5s;
+}
+
+.divv a:hover {
+  color: rgb(160, 99, 49);
+}
+.divv p {
+  color: gray;
+  font-size: 18px;
+}
+
+.divv i {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.divv i:hover {
+  color: gray;
+}
+.fa-facebook-f {
+  font-size: 20px;
+  color: #fff;
+}
+.fa-x-twitter {
+  font-size: 20px;
+  color: #fff;
+}
+.fa-google-plus-g {
+  font-size: 20px;
+  color: #fff;
+}
+.fa-instagram {
+  font-size: 20px;
+  color: #fff;
+}
+.divv a {
+  text-decoration: none;
+  color: gray;
+  line-height: 30px;
+}
+.container6 {
+  width: 100% !important;
+  flex-direction: column;
+  height: auto !important;
+}
+.footer-div .view {
+  text-decoration: underline;
+}
+.divv h3 {
+  color: #fff;
+  font-size: 30px;
+}
+.logo img {
+  width: 100%;
+}
+.divv span {
+  font-size: 30px;
+  color: rgb(160, 99, 49);
+  font-weight: 700;
+}
+.cpr {
+  width: 100%;
+  height: 10vh;
+  border-top: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+}
+.cpr h3 {
+  color: gray;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
